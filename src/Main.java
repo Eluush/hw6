@@ -24,10 +24,20 @@ public class Main {
         int money = 29000;
         int total = 0;
         for (int i = 1; i <= 12; i++) {
-            total = total + total / 100;
             total = total + money;
-            System.out.println("Месяц " + i + " ,сумма накоплений равна " + total + " рублей");
+            System.out.println("Месяц " + i + " ,сумма накоплений " + total + " рублей");
         }
+
+        int moneyTwo = 29000;
+        int totalTwo=0;
+        for (int i = 1; i <= 12; i++) {
+            totalTwo = totalTwo + totalTwo/100;
+            totalTwo = totalTwo + moneyTwo;
+            System.out.println("Месяц " + i + ", сумма накоплений " + totalTwo + " рублей,с учетом процентов ");
+        }
+
+
+
         for (int i = 1; i <= 10; i++) {
             System.out.println("2*" + i + "=" + 2 * i);
         }
